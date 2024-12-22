@@ -6,14 +6,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: NyHome(),
+      home: MyHome(),
       debugShowCheckedModeBanner: false,
     );
   }
 }
 
-class NyHome extends StatelessWidget {
-  const NyHome({
+class MyHome extends StatelessWidget {
+  const MyHome({
     super.key,
   });
 
